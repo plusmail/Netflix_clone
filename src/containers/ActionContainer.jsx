@@ -11,7 +11,7 @@ const ActionContainer = (props) => {
         dispatch(fetchActionMovies());
     }, []);
 
-    const actionData = useSelector(state => state.action.movies, []) || [];
+    const actionData = useSelector(state => state.action.movies) || [];
     // console.log(actionData.results);
 
         

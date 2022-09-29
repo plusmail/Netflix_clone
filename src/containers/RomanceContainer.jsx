@@ -11,7 +11,7 @@ const RomanceContainer = (props) => {
             dispatch(fetchRomanceMovies());
         }, []);
 
-        const romanceData = useSelector(state => state.romance.movies, []) || [];
+        const romanceData = useSelector(state => state.romance.movies) || [];
 
 
     return (

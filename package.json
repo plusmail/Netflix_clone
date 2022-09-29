@@ -1,28 +1,37 @@
 {
-  "name": "netflix-clone",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.19.0",
-    "node-sass": "^4.12.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-icons": "^3.7.0",
-    "react-redux": "^7.1.1",
-    "react-scripts": "3.1.1",
-    "redux": "^4.0.4",
-    "redux-devtools-extension": "^2.13.8",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
-  },
+  "name": "Netflix_Clone",
+  "version": "1.0.0",
+  "description": "![screenshot](./src/static/images/netflix.JPG)",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smooth97/Netflix_Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smooth97/Netflix_Clone/issues"
+  },
+  "homepage": ".",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-aria": "^3.19.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.4",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.55.0"
   },
   "browserslist": {
     "production": [

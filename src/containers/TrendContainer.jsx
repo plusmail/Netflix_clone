@@ -11,7 +11,7 @@ const TrendContainer = (props) => {
             dispatch(fetchTrending());
         }, []);
 
-        const TrendData = useSelector(state => state.trending.movies, []) || [];
+        const TrendData = useSelector(state => state.trending.movies) || [];
 
 
     return (

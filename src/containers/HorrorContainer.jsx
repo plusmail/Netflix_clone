@@ -11,7 +11,7 @@ const HorrorContainer = (props) => {
             dispatch(fetchHorrorMovies());
         }, []);
 
-        const horrorData = useSelector(state => state.horror.movies, []) || [];
+        const horrorData = useSelector(state => state.horror.movies) || [];
 
 
     return (

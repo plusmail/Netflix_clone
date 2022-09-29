@@ -11,7 +11,7 @@ const DocumentaryContainer = (props) => {
             dispatch(fetchDocumentaries());
         }, []);
 
-        const documentaryData = useSelector(state => state.documentary.movies, []) || [];
+        const documentaryData = useSelector(state => state.documentary.movies);
 
     return (
         <div>

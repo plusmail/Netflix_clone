@@ -12,7 +12,7 @@ const TopRatedContainer = (props) => {
             dispatch(fetchTopRated());
         }, []);
 
-        const topRatedData = useSelector(state => state.topRated.movies, []) || [];
+        const topRatedData = useSelector(state => state.topRated.movies) || [];
 
     return (
         <div>

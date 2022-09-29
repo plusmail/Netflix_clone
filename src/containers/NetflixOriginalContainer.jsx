@@ -11,7 +11,7 @@ const NetflixOriginalContainer = () => {
             dispatch(fetchNetflixOriginals());
         }, []);
 
-        const netflixData = useSelector(state => state.netflixOriginals.movies, []) || [];
+        const netflixData = useSelector(state => state.netflixOriginals.movies) || [];
 
     return (
         <div>
